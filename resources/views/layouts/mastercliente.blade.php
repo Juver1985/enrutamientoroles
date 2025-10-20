@@ -17,9 +17,6 @@
   <link rel="stylesheet" href="{{ asset('AdminLTE-3.2.0/plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   <script src="{{ asset('js/app.js') }}" defer></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  
 </head>
 
 <body>
@@ -63,60 +60,9 @@
                     <!-- Unidades Productivas -->
                     <li class="nav-item has-treeview">
                         <a href="#" class="nav-link text-success">
-                            <i class="fas fa-truck"></i> &nbsp;
+                            <i class="fas fa-seedling"></i> &nbsp;
                             <p>
-                                Proveedores
-                                <i class="fas fa-angle-left right"></i>
-                            </p>
-                        </a>
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                           <a href="{{ route('admin.suppliers.create') }}" class="nav-link text-dark">
-                                    <i class="nav-icon fas fa-edit"></i>
-                                    <p>Registro</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="{{ route('admin.suppliers.index') }}" class="nav-link text-dark">
-                                    <i class="nav-icon fas fa-clipboard-list"></i>
-                                    <p>Listas</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-
-                  
-      
-  <!-- Unidades Productivas -->
-                    <li class="nav-item has-treeview">
-                        <a href="#" class="nav-link text-success">
-                         <i class="nav-icon fas fa-boxes"></i> &nbsp;
-                            <p>
-                                Catalogo
-                                <i class="fas fa-angle-left right"></i>
-                            </p>
-                        </a>
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                           <a href="{{ route('admin.category.create') }}" class="nav-link text-dark">
-                                    <i class="nav-icon fas fa-edit"></i>
-                                    <p>Registro</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="{{ route('admin.category.index') }}" class="nav-link text-dark">
-                                    <i class="nav-icon fas fa-clipboard-list"></i>
-                                    <p>Listas</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-
-                            <li class="nav-item has-treeview">
-                        <a href="#" class="nav-link text-success">
-                         <i class="fas fa-tags"></i> &nbsp;
-                            <p>
-                                Productos
+                                Catalogo 
                                 <i class="fas fa-angle-left right"></i>
                             </p>
                         </a>
@@ -124,7 +70,7 @@
                             <li class="nav-item">
                            <a href="" class="nav-link text-dark">
                                     <i class="nav-icon fas fa-edit"></i>
-                                    <p>Registro</p>
+                                    <p>Ingreso</p>
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -135,9 +81,33 @@
                             </li>
                         </ul>
                     </li>
-               
 
-                </ul>
+                    <!-- Bodega Finca -->
+                    <li class="nav-item has-treeview">
+                        <a href="#" class="nav-link text-success">
+                            <i class="fas fa-warehouse"></i> &nbsp;
+                            <p>
+                                Bodega Finca
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-dark">
+                                    <i class="nav-icon fas fa-edit"></i>
+                                    <p>Ingreso</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-dark">
+                                    <i class="nav-icon fas fa-clipboard-list"></i>
+                                    <p>Listas</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                                   </ul>
             </nav>
             <!-- /.sidebar-menu -->
         </div>
